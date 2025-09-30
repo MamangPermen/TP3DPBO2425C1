@@ -1,4 +1,6 @@
-public class Hewan {
+public class Hewan 
+{
+    // Attributes
     protected String famili;
     protected String habitat;
     protected String jenisMakanan;
@@ -6,11 +8,14 @@ public class Hewan {
     protected int harapanHidup;
     protected Makanan food;
 
-    public Hewan() {
+    // Constructor
+    public Hewan()
+    {
         this.food = new Makanan();
     }
 
-    public Hewan(String famili, String habitat, String jenisMakanan, String caraBerkembangbiak, int harapanHidup, Makanan food) {
+    public Hewan(String famili, String habitat, String jenisMakanan, String caraBerkembangbiak, int harapanHidup, Makanan food) 
+    {
         this.famili = famili;
         this.habitat = habitat;
         this.jenisMakanan = jenisMakanan;
@@ -35,7 +40,9 @@ public class Hewan {
     public int getHarapanHidup() { return harapanHidup; }
     public Makanan getMakanan() { return food; }
 
-    public void print() {
+    // Method print
+    public void print() 
+    {
         System.out.println("Famili             : " + getFamili());
         System.out.println("Habitat            : " + getHabitat());
         System.out.println("Jenis Makanan      : " + getJenisMakanan());

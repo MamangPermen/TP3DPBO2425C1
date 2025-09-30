@@ -1,10 +1,13 @@
-public class Makanan {
+public class Makanan 
+{
     private String nama;
     private String jenis;
 
+    // Constructor
     public Makanan() {}
 
-    public Makanan(String nama, String jenis) {
+    public Makanan(String nama, String jenis) 
+    {
         this.nama = nama;
         this.jenis = jenis;
     }
@@ -17,7 +20,9 @@ public class Makanan {
     public String getNama() { return nama; }
     public String getJenis() { return jenis; }
 
-    public void print() {
+    // Method print
+    public void print() 
+    {
         System.out.println("Makanan            : " + getNama() + " (" + getJenis() + ")");
     }
 }

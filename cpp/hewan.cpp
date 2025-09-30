@@ -5,14 +5,15 @@ using namespace std;
 
 class hewan 
 {
-private:
+private: // atribut umum untuk semua hewan
     string famili;
     string habitat;
     string jenisMakanan;
     string caraBerkembangbiak;
     int harapanHidup;
     makanan food;
-public:
+public: 
+    // constructor
     hewan() {}
     hewan(string famili, string habitat, string jenisMakanan, string caraBerkembangbiak, int harapanHidup, makanan food) 
     {
@@ -40,7 +41,7 @@ public:
     int getHarapanHidup() { return harapanHidup; }
     makanan getMakanan() { return food; }
 
-    virtual void print() 
+    virtual void print() // method untuk menampilkan data hewan
     {
         cout << "Famili             : " << getFamili() << endl;
         cout << "Habitat            : " << getHabitat() << endl;
@@ -49,4 +50,7 @@ public:
         cout << "Harapan Hidup      : " << getHarapanHidup() << " tahun" << endl;
         getMakanan().print();
     }
+
+    // Destructor
+    virtual ~hewan() {}
 };

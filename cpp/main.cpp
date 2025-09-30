@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+
+// include semua header file yang diperlukan
 #include "kucing.cpp"
 #include "hiu.cpp"
 #include "kumbangBadak.cpp"
@@ -6,10 +8,12 @@ using namespace std;
 
 int main()
 {
+    // membuat vektor untuk menyimpan objek hewan
     vector<kucing*> daftarKucing;
     vector<hiu*> daftarHiu;
     vector<kumbangBadak*> daftarKumbang;
 
+    // Menampilkan data hewan sebelum ditambahkan
     cout << "xxx Data Hewan (Sebelum Ditambahkan) xxx" << endl;
 
     cout << "--- Kucing ---" << endl;
@@ -60,6 +64,7 @@ int main()
     kb1->setPanjangTanduk(30);
     daftarKumbang.push_back(kb1);
 
+    // Menampilkan data hewan setelah ditambahkan
     cout << "xxx Data Hewan (Setelah Ditambahkan) xxx" << endl;
 
     cout << "--- Kucing ---" << endl;

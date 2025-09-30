@@ -1,12 +1,16 @@
-public class Kucing extends Hewan {
+public class Kucing extends Hewan 
+{
     private String ras;
     private String warnaBulu;
 
-    public Kucing() {
+    // Constructor
+    public Kucing() 
+    {
         super();
     }
 
-    public Kucing(String famili, String habitat, String jenisMakanan, String caraBerkembangbiak, int harapanHidup, Makanan food, String ras, String warnaBulu) {
+    public Kucing(String famili, String habitat, String jenisMakanan, String caraBerkembangbiak, int harapanHidup, Makanan food, String ras, String warnaBulu) 
+    {
         super(famili, habitat, jenisMakanan, caraBerkembangbiak, harapanHidup, food);
         this.ras = ras;
         this.warnaBulu = warnaBulu;
@@ -20,8 +24,10 @@ public class Kucing extends Hewan {
     public String getRas() { return ras; }
     public String getWarnaBulu() { return warnaBulu; }
 
+    // Method print
     @Override
-    public void print() {
+    public void print() 
+    {
         super.print();
         System.out.println("Ras                : " + getRas());
         System.out.println("Warna Bulu         : " + getWarnaBulu());

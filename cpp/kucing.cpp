@@ -3,12 +3,13 @@
 #include "hewan.cpp"
 using namespace std;
 
-class kucing : public hewan 
+class kucing : public hewan // inherits from hewan
 {
-private:
+private: // atribut khusus untuk kucing
     string ras;
     string warnaBulu;
 public:
+    // constructor
     kucing() {}
     kucing(string famili, string habitat, string jenisMakanan, string caraBerkembangbiak, int harapanHidup, makanan food, string ras, string warnaBulu)
         : hewan(famili, habitat, jenisMakanan, caraBerkembangbiak, harapanHidup, food) 
@@ -25,10 +26,14 @@ public:
     string getRas() { return ras; }
     string getWarnaBulu() { return warnaBulu; }
 
-    void print() override 
+    // Method print override kucing
+    void print() override
     {
         hewan::print();
         cout << "Ras                : " << getRas() << endl;
         cout << "Warna Bulu         : " << getWarnaBulu() << endl << endl;
     }
+
+    // Destructor
+    ~kucing() {}
 };

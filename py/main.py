@@ -1,13 +1,16 @@
+# import class
 from kucing import kucing
 from hiu import hiu
 from kumbangbadak import kumbangBadak
 from makanan import makanan
 
 def main():
+    # List untuk menyimpan objek
     daftar_kucing = []
     daftar_hiu = []
     daftar_kumbang = []
 
+    # Tampilkan data hewan (sebelum ditambahkan)
     print("xxx Data Hewan (Sebelum Ditambahkan) xxx")
     print("--- Kucing ---")
     if not daftar_kucing:
@@ -72,6 +75,7 @@ def main():
     kb1.set_panjang_tanduk(30)
     daftar_kumbang.append(kb1)
 
+    # Tampilkan data hewan (setelah ditambahkan)
     print("xxx Data Hewan (Setelah Ditambahkan) xxx")
 
     print("--- Kucing ---")

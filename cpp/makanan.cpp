@@ -2,12 +2,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class makanan 
+class makanan
 {
 private:
     string nama;
     string jenis;
 public:
+    // constructor
     makanan() {}
     makanan(string nama, string jenis) 
     {
@@ -23,8 +24,11 @@ public:
     string getNama() { return nama; }
     string getJenis() { return jenis; }
 
-    void print()
+    void print() // method untuk menampilkan data makanan
     {
         cout << "Makanan            : " << getNama() << " (" << getJenis() << ")" << endl;
     }
+
+    // Destructor
+    ~makanan() {}
 };

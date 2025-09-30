@@ -1,12 +1,16 @@
-public class Hiu extends Hewan {
+public class Hiu extends Hewan 
+{
     private String spesies;
     private int jumlahGigi;
 
-    public Hiu() {
+    // Constructor
+    public Hiu() 
+    {
         super();
     }
 
-    public Hiu(String famili, String habitat, String jenisMakanan, String caraBerkembangbiak, int harapanHidup, Makanan food, String spesies, int jumlahGigi) {
+    public Hiu(String famili, String habitat, String jenisMakanan, String caraBerkembangbiak, int harapanHidup, Makanan food, String spesies, int jumlahGigi) 
+    {
         super(famili, habitat, jenisMakanan, caraBerkembangbiak, harapanHidup, food);
         this.spesies = spesies;
         this.jumlahGigi = jumlahGigi;
@@ -20,8 +24,10 @@ public class Hiu extends Hewan {
     public String getSpesies() { return spesies; }
     public int getJumlahGigi() { return jumlahGigi; }
 
+    // Method print
     @Override
-    public void print() {
+    public void print() 
+    {
         super.print();
         System.out.println("Spesies            : " + getSpesies());
         System.out.println("Jumlah Gigi        : " + getJumlahGigi());

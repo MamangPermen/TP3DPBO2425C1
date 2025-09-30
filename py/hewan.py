@@ -1,6 +1,7 @@
-from makanan import makanan
+from makanan import makanan #import kelas makanan
 
 class hewan:
+    # Constructor
     def __init__(self, famili="", habitat="", jenis_makanan="", cara_berkembangbiak="", harapan_hidup=0, food=None):
         self.famili = famili
         self.habitat = habitat
@@ -47,6 +48,7 @@ class hewan:
     def get_makanan(self):
         return self.food
 
+    # Method print
     def print(self):
         print(f"Famili             : {self.get_famili()}")
         print(f"Habitat            : {self.get_habitat()}")
@@ -54,3 +56,7 @@ class hewan:
         print(f"Cara Berkembangbiak: {self.get_cara_berkembangbiak()}")
         print(f"Harapan Hidup      : {self.get_harapan_hidup()} tahun")
         self.get_makanan().print()
+
+    # Destructor
+    def __del__(self):
+        pass

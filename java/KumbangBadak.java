@@ -1,12 +1,16 @@
-public class KumbangBadak extends Hewan {
+public class KumbangBadak extends Hewan 
+{
     private String spesies;
     private int panjangTanduk;
 
-    public KumbangBadak() {
+    // Constructor
+    public KumbangBadak() 
+    {
         super();
     }
 
-    public KumbangBadak(String famili, String habitat, String jenisMakanan, String caraBerkembangbiak, int harapanHidup, Makanan food, String spesies, int panjangTanduk) {
+    public KumbangBadak(String famili, String habitat, String jenisMakanan, String caraBerkembangbiak, int harapanHidup, Makanan food, String spesies, int panjangTanduk) 
+    {
         super(famili, habitat, jenisMakanan, caraBerkembangbiak, harapanHidup, food);
         this.spesies = spesies;
         this.panjangTanduk = panjangTanduk;
@@ -20,8 +24,10 @@ public class KumbangBadak extends Hewan {
     public String getSpesies() { return spesies; }
     public int getPanjangTanduk() { return panjangTanduk; }
 
+    // Method print
     @Override
-    public void print() {
+    public void print() 
+    {
         super.print();
         System.out.println("Spesies            : " + getSpesies());
         System.out.println("Panjang Tanduk     : " + getPanjangTanduk() + " mm");

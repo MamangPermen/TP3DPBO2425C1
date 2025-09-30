@@ -1,11 +1,15 @@
-import java.util.ArrayList;
+import java.util.*;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        // List untuk menyimpan objek hewan
         ArrayList<Kucing> daftarKucing = new ArrayList<>();
         ArrayList<Hiu> daftarHiu = new ArrayList<>();
         ArrayList<KumbangBadak> daftarKumbang = new ArrayList<>();
 
+        // Tampilkan data hewan sebelum ditambahkan
         System.out.println("xxx Data Hewan (Sebelum Ditambahkan) xxx");
         System.out.println("--- Kucing ---");
         if (daftarKucing.isEmpty()) System.out.println("Data kucing masih kosong.\n");
@@ -66,31 +70,38 @@ public class Main {
         kb1.setPanjangTanduk(30);
         daftarKumbang.add(kb1);
 
+        // Tampilkan data hewan setelah ditambahkan
         System.out.println("xxx Data Hewan (Setelah Ditambahkan) xxx");
 
         System.out.println("--- Kucing ---");
-        if (daftarKucing.isEmpty()) {
+        if (daftarKucing.isEmpty()) 
+        {
             System.out.println("Data kucing masih kosong.");
         } else {
-            for (Kucing k : daftarKucing) {
+            for (Kucing k : daftarKucing) 
+            {
                 k.print();
             }
         }
 
         System.out.println("--- Hiu ---");
-        if (daftarHiu.isEmpty()) {
+        if (daftarHiu.isEmpty()) 
+        {
             System.out.println("Data hiu masih kosong.");
         } else {
-            for (Hiu h : daftarHiu) {
+            for (Hiu h : daftarHiu) 
+            {
                 h.print();
             }
         }
 
         System.out.println("--- Kumbang Badak ---");
-        if (daftarKumbang.isEmpty()) {
+        if (daftarKumbang.isEmpty()) 
+        {
             System.out.println("Data kumbang badak masih kosong.");
         } else {
-            for (KumbangBadak kb : daftarKumbang) {
+            for (KumbangBadak kb : daftarKumbang) 
+            {
                 kb.print();
             }
         }
