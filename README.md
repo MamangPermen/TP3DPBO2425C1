@@ -108,14 +108,17 @@ Diagram UML program (lihat file `DiagramTP3.jpg`) menunjukkan:
 
 ## 📸 Dokumentasi
 1. **C++**
+
 ![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/cpp.JPG)
 
 ---
 
 2. **Python**
+
 ![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/py.JPG)
 
 ---
 
 3. **Java**
+
 ![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/java.JPG)
