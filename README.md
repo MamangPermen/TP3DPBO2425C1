@@ -1,13 +1,13 @@
 # 🐾 TP3DPBOC1
 
-Program ini dibuat untuk memodelkan data berbagai hewan dengan pendekatan **Object-Oriented Programming (OOP)**.  
+Program ini dibuat untuk memodelkan data berbagai hewan dengan pendekatan **Object-Oriented Programming (OOP)** menggunakan inheritance, composition, dan array of object.
 Struktur dan desain program sama pada ketiga bahasa (C++, Java, Python).
 
 ---
 
 ## 🤝🏻 Janji
 
-Saya Nadhif Arva Anargya dengan NIM 2404336 mengerjakan Tugas Praktikum 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek. Untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
+Saya Nadhif Arva Anargya dengan NIM 2404336 mengerjakan Tugas Praktikum 3 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek. Untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ---
 
@@ -108,14 +108,14 @@ Diagram UML program (lihat file `DiagramTP3.jpg`) menunjukkan:
 
 ## 📸 Dokumentasi
 1. **C++**
-![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/cpp.jpg)
+![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/cpp.JPG)
 
 ---
 
 2. **Python**
-![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/py.jpg)
+![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/py.JPG)
 
 ---
 
 3. **Java**
-![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/java.jpg)
+![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/java.JPG)
