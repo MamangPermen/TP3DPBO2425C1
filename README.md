@@ -5,7 +5,7 @@ Struktur dan desain program sama pada ketiga bahasa (C++, Java, Python).
 
 ---
 
-##🤝🏻 Janji
+## 🤝🏻 Janji
 
 Saya Nadhif Arva Anargya dengan NIM 2404336 mengerjakan Tugas Praktikum 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek. Untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
