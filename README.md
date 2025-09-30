@@ -1,8 +1,12 @@
-# 🐾 Program OOP Hewan (C++, Java, Python)
+# 🐾 TP3DPBOC1
 
 Program ini dibuat untuk memodelkan data berbagai hewan dengan pendekatan **Object-Oriented Programming (OOP)**.  
-Struktur dan desain program sama pada ketiga bahasa (C++, Java, Python), hanya berbeda implementasi sintaks.
+Struktur dan desain program sama pada ketiga bahasa (C++, Java, Python).
 
+---
+
+##🤝🏻 Janji
+Saya Nadhif Arva Anargya dengan NIM 2404336 mengerjakan Tugas Praktikum 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek. Untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 ---
 
 ## 📌 Penjelasan Kelas, Atribut, dan Method
@@ -79,6 +83,8 @@ Diagram UML program (lihat file `DiagramTP3.jpg`) menunjukkan:
 - **Inheritance** (panah kosong): hubungan antara `hewan` → `kucing`, `hiu`, `kumbangBadak`.
 - **Composition** (belah ketupat): hubungan `hewan` memiliki `makanan`.
 
+![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/DiagramTP3.jpg)
+
 ---
 
 ## 📖 Alur Program
@@ -95,3 +101,19 @@ Diagram UML program (lihat file `DiagramTP3.jpg`) menunjukkan:
    - Program mencetak ulang daftar hewan.
    - Jika data ada, akan dipanggil method `print()` dari masing-masing objek.
    - Karena menggunakan **polymorphism (override print)**, output akan menyesuaikan jenis hewannya.
+
+---
+
+## 📸 Dokumentasi
+1. **C++**
+![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/cpp.jpg)
+
+---
+
+2. **Python**
+![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/py.jpg)
+
+---
+
+3. **Java**
+![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/java.jpg)
