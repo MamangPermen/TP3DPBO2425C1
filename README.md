@@ -85,7 +85,7 @@ Diagram UML program (lihat file `DiagramTP3.jpg`) menunjukkan:
 - **Inheritance** (panah kosong): hubungan antara `hewan` → `kucing`, `hiu`, `kumbangBadak`.
 - **Composition** (belah ketupat): hubungan `hewan` memiliki `makanan`.
 
-![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/DiagramTP3.jpg)
+![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/DiagramTP3.jpg)
 
 ---
 
@@ -109,16 +109,16 @@ Diagram UML program (lihat file `DiagramTP3.jpg`) menunjukkan:
 ## 📸 Dokumentasi
 1. **C++**
 
-![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/cpp.JPG)
+![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/cpp/dokumentasi/cpp.JPG)
 
 ---
 
 2. **Python**
 
-![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/py.JPG)
+![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/py/dokumentasi/py.JPG)
 
 ---
 
 3. **Java**
 
-![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/Dokumentasi/java.JPG)
+![alt text](https://github.com/MamangPermen/TP3DPBO2425C1/blob/main/java/dokumentasi/java.JPG)
